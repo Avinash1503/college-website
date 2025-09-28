@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>University Website Design </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+    </head>
+
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nave-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOGS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+
+           <h1>Our Certficate & Online Program For 2025</h1>
+            
+        </section>
+
+      
+
+        <!----------------Blog Page Content------------>
+
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/certificate.jpg">
+                    <h2>Our Certficate & Online Program For 2025</h2>
+                    <p>Our Certificate & Online Program is designed to offer students flexible, accessible, and career-driven education. With a strong focus on practical skills and industry relevance, the programs cover diverse fields such as technology, business, management, healthcare, and creative studies. Delivered through modern digital platforms, students can learn anytime, anywhere with guidance from experienced faculty. The courses are structured to enhance professional development, provide global exposure, and equip learners with the knowledge required to excel in competitive industries. Upon successful completion, students earn recognized certifications that strengthen their career prospects and open new opportunities worldwide.</p><br>
+                    <p>Our Certificate & Online Program offers flexible learning, expert guidance, and globally recognized certifications. Covering diverse fields, it empowers students with practical skills, industry knowledge, and career opportunities for a successful future.</p><br>
+                    
+
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+
+                </div>
+
+                 </div>
+                 <div class="blog-right">
+                 <h3>Post Categories</h3>
+                 
+                 <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                 </div>
+                 <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                 </div>
+
+                 <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                 </div>
+
+                 <div>
+                    <span>Computer Science</span>
+                    <span>31</span>
+                 </div>
+                 <div>
+                    <span>Auto CAD</span>
+                    <span>42</span>
+                 </div>
+                 <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                 </div>
+                 <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                 </div>
+                
+                 </div>
+            </div>
+
+        </section>
+
+       
+       <!----------------Footer-------------->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Our college is dedicated to academic excellence, innovation, and student growth. With modern facilities, experienced faculty, and supportive services,<br> we guide students toward success. For queries, admissions, or collaborations, please connect with us through our contact channels </p>
+                 <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                 </div>
+                 <p>Made With<i class="fa fa-heart-o"></i>by Avinash</p>
+
+        </section>
+        
+
+        <!---javaScript for Toggle Menu --->
+        <script>
+            var navLink = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+
+    </body>
+    
+</html>
